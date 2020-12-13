@@ -1,0 +1,30 @@
+/* 
+Todos os direito reservado.
+Este é um exercio realizado durante o Ticnes web developement Training Course pertencente a Cássio Lisandro Afonso Neto. 
+    Created on : 8/nov/2016, 11:48:34
+    Author     : Cássio Neto
+*/
+
+body{
+    position:absolute;
+    left:100px;
+    /* margin-left: 100px;*/
+}
+header{
+    /*text-align: center;*/
+}
+h1{ 
+    position:relative;
+    left:300px; 
+}
+
+h2{
+    position:relative;
+    left:400px; 
+}
+
+article h3{
+    position:relative;
+    left:500px; 
+} 
+

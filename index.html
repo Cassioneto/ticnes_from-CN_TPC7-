@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+Todos os direito reservado.
+Este é um exercio realizado durante o Ticnes web developement Training Course pertencente a Cássio Lisandro Afonso Neto. 
+-->
+<html lang="pt">
+    <head>
+        <title>TICNES – CyberSecurity Technologies</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+                <h1>TICNES – CyberSecurity Technologies</h1>
+                <h2>Curso de programação Web/Mobile</h2>
+        </header>
+        
+        <article>
+            <h3><u>Ficha de Inscrição</u></h3>
+            <form>
+                <p>
+                <label for="nome"> Nome Próprio:</label>
+                <input type="text" name="nome" id="nome" />
+                <label for="sobrenome"> Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" />
+                </p>
+                
+                <label for="email"> E-Mail:</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" id="email" />
+                <label for="tel"><abbr title="Telefone"> TLM#:</abbr></label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="tel" id="tel" type="tel"/>
+                <p> Que curso deseja frequentar ?</p>
+                <input type="radio" name="qp1" id="qpw" value="Programação WEB"/>
+                <label for="qpw"> Programação WEB</label>
+                <br/>
+                <input type="radio" name="qp1" id="qpm" value="Programação MOBILE"/>
+                <label for="qpm"> Programação MOBILE</label>
+                <p> Tem conhecimentos de programação WEB/Mobile ?</p>
+                <input type="radio" name="qp2" id="qps" value="Sim"/>
+                <label for="qps"> Sim</label>
+                <br/>
+                <input type="radio" name="qp2" id="qpn" value="Nao"/>
+                <label for="qpm"> Não</label>                
+                <p> Se sim, que tecnologias WEB/MOBILE conhece?</p>
+                <label for="qp3_1">1-</label>
+                <input type="text" name="qp3_1" id="qp3_1"/>
+                <br/><br/>
+                <label for="qp3_2">2-</label>
+                <input type="text" name="qp3_2" id="qp3_2"/>
+                <br/><br/>
+                <label for="qp3_1">3-</label>
+                <input type="text" name="qp3_3" id="qp3_3"/>
+                <p>Escolha o seu horário, conforme indicado(X) no exemplo da tabela seguinte:</p>
+                <table>
+                    <thead >
+                        <tr>
+                            <th> Horas</th>
+                            <th> 2ªFeira</th>
+                            <th> 3ªFeira</th>
+                            <th> 4ªFeira</th>
+                            <th> 5ªFeira</th>
+                            <th> 6ªFeira</th>
+                            <th> Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 8 - 10h</td>
+                            <td class="red"><input type="checkbox" name="seg8" value="segunda8h" checked/></td>
+                            <td class="yellow"><input type="checkbox" name="ter8" value="terca8h"/></td>
+                            <td class="blue"><input type="checkbox" name="qua8" value="quarta8h"/></td>
+                            <td class="red"><input type="checkbox" name="qui8" value="qunita8h" checked/></td>
+                            <td class="yellow"><input type="checkbox" name="sex8" value="sexta8h"/></td>
+                            <td class="green" rowspan="2"><input type="checkbox" name="sab8" value="sabado8h"/></td>
+                        </tr>
+                        <tr>
+                            <td> 10:30 – <br/>12:30h&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td class="red"><input type="checkbox" name="seg10" value="segunda10h"/></td>
+                            <td class="yellow" ><input type="checkbox" name="ter10" value="terca10h"/></td>
+                            <td class="blue"><input type="checkbox" name="qua10" value="quarta10h"/></td>
+                            <td class="red"><input type="checkbox" name="qui10" value="qunita10h"/></td>
+                            <td class="yellow"><input type="checkbox" name="sex10" value="sexta10h"/></td>
+                        </tr>
+                        <tr>
+                            <td> 13:30- <br/>15:30h</td>
+                            <td class="red"><input type="checkbox" name="seg13" value="segunda13h"/></td>
+                            <td class="yellow"><input type="checkbox" name="ter13" value="terca13h"/></td>
+                            <td class="blue"><input type="checkbox" name="qua13" value="quarta13h"/></td>
+                            <td class="red"><input type="checkbox" name="qui13" value="qunita13h"/></td>
+                            <td class="yellow"><input type="checkbox" name="sex13" value="sexta13h"/></td>
+                            <td class="green" rowspan="2"><input type="checkbox" name="sab13" value="sabado13h"/></td>
+                        </tr>
+                        <tr>
+                            <td> 16 - 18h</td>
+                            <td class="red"><input type="checkbox" name="seg16" value="segunda16h"/></td>
+                            <td class="yellow"><input type="checkbox" name="ter16" value="terca16h"/></td>
+                            <td class="blue"><input type="checkbox" name="qua16" value="quarta16h"/></td>
+                            <td class="red"><input type="checkbox" name="qui16" value="qunita16h"/></td>
+                            <td class="yellow"><input type="checkbox" name="sex16" value="sexta16h"/></td>
+                        </tr>
+                    </tbody>                   
+                </table>
+                <p><label for="qp5"> O que espera estar a fazer profissionalmente daqui a três anos:</label></p>
+                <textarea name="qp5" id="qp5" rows="20" cols="54"></textarea>
+                <p><label for="qp6"> O que espera estar a fazer profissionalmente daqui a um ano:</label></p>
+                <textarea name="qp6" id="qp6" rows="15" cols="54"></textarea>
+                <p>Qual é a coisa mais ousada, arriscada, corajosa que fez na sua vida até agora:</p>
+                <p><label for="qp7_1"> 1- Profissionalmente(como profissional)</label></p>
+                <input type="text" name="qp7_1" id="qp7_1" size="65"/>
+                <p><label for="qp7_2">2- Particularmente(na sua vida privada)</label></p>
+                <input type="text" name="qp7_2" id="qp7_2" size="65" />
+                <h3>Obrigado pela sua colaboração !</h3>
+                <p>Esperamos vê-lo na TICNES, como nosso colaborador, dentro em breve.</p>
+                <input type="submit" value="enviar"/>
+            </form>
+            </article>
+            <footer>
+                <p>TICNES©Outubro/2016 - Email: <a href="mailto:info@ticnes.com">info@ticnes.com</a> – Tel.: 997583574 / 921195809 – Luanda/Angola</p>
+            </footer>
+    </body>
+</html>
